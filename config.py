@@ -207,7 +207,7 @@ API_HASH = getenv("API_HASH", "d927c13beaaf5110f25c505b7c071273")
 
 # ________________________________________________________________________________#
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7715739501:AAG_K7uKpsl6ac-GdkZFnkCNGe2UcRYX8w")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 # ________________________________________________________________________________#
 
@@ -237,7 +237,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 # ________________________________________________________________________________#
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002297624144"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002983844577"))
 
 SONG_DOWNLOAD_DURATION_LIMIT = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "500")
@@ -268,7 +268,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Itz-Murali/AviaxMusicV2",
+    "https://github.com/masoombalak88/Testing",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
